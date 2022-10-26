@@ -1,0 +1,83 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    background-color: rgb(250, 163, 1);
+    
+}
+
+.navbar-brand{
+
+    color: #000 !important;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+
+.jumbotron{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/andamio.jfif);
+    height: 250px;
+    background-position: center;
+    color: #ff0;
+    margin: 0;
+}
+
+button {
+
+  border: 2px solid #000 !important;
+}
+
+h2{
+    background-color: black;
+    color:#ff0;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.nleft{
+
+    height: 590px;
+    background-image: url(img/inicio.jfif);
+    background-size: cover;
+    background-position:center ;
+}
+
+.ncenter{
+
+
+    height: 590px;
+    background-image: url(img/Alsina.jfif);
+    background-size: cover;
+    background-position:center ;
+}
+
+.nright{
+
+    height: 590px;
+    background-image: url(img/vieytes.jfif);
+    background-size: cover;
+    background-position:center ;   
+}
+
+
+footer{
+
+    
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/modificación-mejoras-y-reparaciones-en-cosas-y-parte-comunes.jpg);
+    height: 150px;
+    background-position: center;
+    color: #ff0;
+    box-shadow: inset 0 0 5px 1px #ff0;
+    background-size: cover;
+    
+}
